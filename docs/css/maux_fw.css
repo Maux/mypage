@@ -309,7 +309,7 @@ h6,.h6{
 	font-size:0.85714em;
 	line-height:1.75em
 }
-header .site-title{margin:0;padding:0}
+	 .site-title{margin:0;padding:0}
 header .site-subtitle{margin:0;padding:0}
 hr{
 	border:0;
@@ -330,7 +330,7 @@ img{
 	padding:0;
 	page-break-inside:avoid;
 	vertical-align:middle;
-	width:auto
+	/* width:auto */
 }
 .img-responsive{
 	display:block;
@@ -573,25 +573,6 @@ textarea{
 	.x-10{width:81.333%}
 	.x-11{width:89.667%}
 	.x-12{width:98%}
-	/* Remove from here */
-	.x-01{background-color:rgba(255,0,0,0.15)}
-	.x-02{background-color:rgba(255,128,0,0.15)}
-	.x-03{background-color:rgba(255,255,0,0.15)}
-	.x-04{background-color:rgba(128,255,0,0.15)}
-	.x-05{background-color:rgba(0,255,0,0.15)}
-	.x-06{background-color:rgba(0,255,128,0.15)}
-	.x-07{background-color:rgba(0,255,255,0.15)}
-	.x-08{background-color:rgba(0,128,255,0.15)}
-	.x-09{background-color:rgba(0,0,255,0.15)}
-	.x-10{background-color:rgba(128,0,255,0.15)}
-	.x-11{background-color:rgba(255,0,255,0.15)}
-	.x-12{background-color:rgba(255,0,128,0.15)}
-	[class*='x-']{
-		border:1px solid rgba(128,128,128,0.5);
-		padding:0.5em;
-	}
-	form [class*='x-']{padding:0;border:0 none}
-	/* Until here */
 	[class*='x-']{
 		float:left;
 		display:inline;
