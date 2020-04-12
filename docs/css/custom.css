@@ -1,3 +1,6 @@
+body{
+	color: #141414;
+}
 header{background-color: #DDD8DE}
 header h1,.h1{
 	/* 42px/21px */
