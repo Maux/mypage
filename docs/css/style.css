@@ -1,0 +1,45 @@
+/* Base: https://jsfiddle.net/Maux/oabtygLm/42/ */
+@charset "UTF-8";
+*, *::before, *::after {box-sizing: border-box;}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body {
+	background: #202020;
+	color: #000000;
+	font: normal 0.875rem/1.5em sans-serif;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+}
+.container {
+	/* background: #e0e0e0; */
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 95%;
+	width: 95%;
+}
+.img-badges {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.img-badge, p {margin: 0.25em;}
+a, a:link{
+	color: #00a0e0;
+}
+.copyrights{
+	color:#a0a0a0;
+}
