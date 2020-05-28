@@ -30,6 +30,9 @@ img {
 	height: 95%;
 	width: 95%;
 }
+.img-main{
+	margin-bottom: 1.5em;
+}
 .img-badges {
 	display: flex;
 	flex-flow: row wrap;
